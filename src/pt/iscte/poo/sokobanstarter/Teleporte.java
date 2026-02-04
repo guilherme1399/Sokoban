@@ -1,0 +1,10 @@
+package pt.iscte.poo.sokobanstarter;
+
+import pt.iscte.poo.utils.Point2D;
+
+public class Teleporte extends TransitionElement {
+    
+	public Teleporte(Point2D position, Point2D destination){
+		super(position, "Teleporte");
+	}
+}
